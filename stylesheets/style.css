@@ -5,88 +5,26 @@
 
 body {
     background-color: none;
-    font-family: Tahoma, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
-/* Start of the navbar styling */
-.navbar-wrapper{
-    max-width: 1200px;
-    margin: auto;
-    color: white;
-}
-
-nav {
-    position: absolute;
-    background-color: none;
-    height: 80px;
+/* Standard styles that can be included when needed in the application */
+.container {
     width: 100%;
-    max-width: 1200px;
+    display: flex;
+    max-width: 1150px;
     margin: auto;
+    margin-top: 30px;
 }
 
-nav .logo {
-    float: left;
-    margin-left: 20px;
-    height: inherit;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    height: 100%;
 }
-
-nav .logo img {
-    height: 70px;
-    width: auto;
-}
-
-nav a {
-    text-decoration: none;
-}
-
-nav ul {
-    float: right;
-    margin-right: 20px;
-    height: 60px;
-}
-
-nav ul li {
-    display: inline-block;
-    line-height: 60px;
-    margin: 0;
-    margin-right: 5px;
-    margin-top: 10px;
-    transition: .2s;
-}
-
-nav ul li a {
-    font-weight: 600;
-    color: white;
-    font-size: 17px;
-    padding: 7px 10px;
-}
-
-nav li a:hover {
-    transition: .4s;
-    color: rgb(191, 190, 190);
-}
-
-.checkbtn {
-    font-size: 30px;
-    color: black;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-
-#check {
-    display: none;
-}
-
-/* End of the navbar styling */
 
 /* Start of the header styling */
-header{
-
-}
-
 header div img{
     width: 100%;
     height: 650px;

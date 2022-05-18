@@ -1,0 +1,39 @@
+/* In this file are all the custom written css styles for the styles inside the vision section */
+
+/* Start of the vision text area */
+.vision-text-area {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.vision-text-area h2{
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.vision-text-area p{
+    font-size: 15px;
+    margin: 10px 0px; 
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.vision-main-text{
+    font-weight: 400 !important;
+}
+
+/* End of the vision text area */
+
+/* Start of the vision image area */
+.vision-img-area{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.vision-img-area img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+/* End of the vision image area */
