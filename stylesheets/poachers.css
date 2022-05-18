@@ -1,0 +1,40 @@
+/* In this file are all the custom written css styles for the styles inside the poachers section */
+
+/* Start of the poachers text area */
+.poachers-text-area {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.poachers-text-area h2 {
+    font-size: 28px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+.poachers-text-area p {
+    font-size: 15px;
+    margin: 10px 0px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.poachers-main-text {
+    font-weight: 400 !important;
+}
+
+/* End of the poachers text area */
+
+/* Start of the poachers image area */
+.poachers-img-area {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.poachers-img-area img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+/* End of the poachers image area */
