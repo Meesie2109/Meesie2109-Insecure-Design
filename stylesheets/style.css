@@ -31,4 +31,8 @@ header div img{
     object-fit: cover;
     margin-top: -100px;
 }
+
+.small-header-img{
+    height: 450px;
+}
 /* End of the header styling */
