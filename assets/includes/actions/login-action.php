@@ -1,3 +1,4 @@
+<!-- In this file is code stored to check if the user can login based on the given credentials -->
 <?php 
 
 if(isset($_POST['login-button'])){
