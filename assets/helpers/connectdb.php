@@ -11,10 +11,12 @@
     $conn = mysqli_connect($servername, $username, $password, $dbname);
 
     // If statment to check if the database is connected
-    if (!$conn) {
-        die("Connection failed: " . mysqli_connect_error());
-    }
-    echo "Connected successfully";
+
+    //Only for development porpuse
+    // if (!$conn) {
+    //     die("Connection failed: " . mysqli_connect_error());
+    // }
+    // echo "Connected successfully";
 
     // Includes a file that inserts a user on startup
     include_once 'standard-user.php';
