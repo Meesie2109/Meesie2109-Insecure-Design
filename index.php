@@ -1,3 +1,5 @@
+<?php include_once './assets/helpers/connectdb.php'?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
