@@ -1,0 +1,55 @@
+/* In this file are all the custom written css styles for the styles inside the register page */
+.register-section-inputs{
+    margin-top: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7vw;
+}
+
+.register-section-inputs div input {
+    width: 22vw;
+    height: 30px;
+    margin: 5px;
+    margin-bottom: 5px;
+    border-width: 0px;
+    padding-left: 2vw;
+    outline: 1px solid black;
+    border-radius: 5px;
+}
+
+.register-section-inputs div input:focus::placeholder {
+    opacity: 0.8;
+}
+
+.register-section-inputs div .login-button {
+    width: 24vw;
+    height: 30px;
+    margin: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
+
+.register-section-inputs div h2 {
+    font-weight: 900;
+    font-size: 30px;
+    color: black;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.register-section-inputs div p {
+    font-size: 15px;
+    margin: 2px;
+    margin-left: 5px;
+}
+
+.register-section-inputs div a {
+    margin: 5px;
+    font-size: 13px;
+}
