@@ -25,12 +25,22 @@
                <div class="login-section-inputs">
                    <div>
                         <h2>Login</h2>
-                        <form action="#">
+                        <form method="post" action="./assets/includes/actions/login-action.php">
                             <p>Username</p>
-                            <input type="text" placeholder="Username"><br>
+                            <input 
+                                type="text" 
+                                name="username" 
+                                placeholder="Username" 
+                                required>
+                            <br>
                             <p>Password</p>
-                            <input type="text" placeholder="Password"><br>
-                            <button type="submit" class="login-button">Login</button>
+                            <input 
+                                type="text" 
+                                name="password" 
+                                placeholder="Password" 
+                                required>
+                            <br>
+                            <button type="submit" name="login-button" class="login-button">Login</button>
                         </form>
                         <p>No account yet? <a href="register.html">Register</a></p>
                    </div>

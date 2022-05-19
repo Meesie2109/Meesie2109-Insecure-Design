@@ -12,7 +12,7 @@
         $sql = "INSERT INTO User (username, email, password)
         VALUES ('insecure-admin', 'insecureAdmin@horizon.nl', '1234')";
 
-        //Only for development purpuses
+        // Only for development purpuses
         // if ($conn->query($sql) === TRUE) {
         //     echo "New record created successfully";
         // } else {
