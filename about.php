@@ -24,30 +24,7 @@
 <body>
 
     <!-- Start of the header section -->
-    <header>
-        <!-- Start of the navbar section-->
-        <div class="navbar-wrapper">
-            <nav id="navbar">
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
-                    <i class="fas fa-bars"></i>
-                </label>
-                <div class="logo">
-                    <div class="logo-text"><img src="assets/img/logowithoutbackground.png"></div>
-                </div>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="login.html">Login</a></li>
-                </ul>
-            </nav>
-        </div>
-        <!-- End of the navbar section-->
-        <div>
-            <img class="small-header-img" src="./assets/img/thumbnail_img.jpeg" alt="">
-        </div>
-    </header>
+    <?php include './assets/includes/headers/small-header.php'; ?>
     <!-- End of the header section-->
 
     <!-- Start of the main content section of the about page -->
