@@ -23,7 +23,7 @@ nav .logo {
 }
 
 nav .logo img {
-    height: 70px;
+    height: 90px;
     width: auto;
 }
 
@@ -70,6 +70,10 @@ nav li a:hover {
 
 #check {
     display: none;
+}
+
+.logo {
+    margin: 4rem;
 }
 
 /* End of the navbar styling */

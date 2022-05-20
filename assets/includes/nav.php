@@ -6,7 +6,7 @@
                 <i class="fas fa-bars"></i>
             </label>
             <div class="logo">
-                <div class="logo-text"><img src="assets/img/logowithoutbackground.png"></div>
+                <div class="logo-text"><img src="assets/img/logo-image.png"></div>
             </div>
             <ul>
                 <li><a href="index.php">Home</a></li>

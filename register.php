@@ -1,20 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Register page</title>
-
-    <!-- The login.css includes all the custom styles used on the login page -->
-    <link rel="stylesheet" href="./stylesheets/login.css">
-
-    <!-- The login.css includes all the custom styles used on the register page -->
-    <link rel="stylesheet" href="./stylesheets/register.css">
-
-    <link rel="stylesheet" href="./stylesheets/style.css">
-</head>
+<!-- Start of the head section -->
+<?php include './assets/includes/head.php'; ?>
+<!-- End of the head section -->
 <body>
 
     <!-- Start of the main content section for the login page-->
@@ -46,13 +32,13 @@
                             <p>Username</p>
                             <input 
                                 name="username-input" 
-                                type="text" 
+                                type="password" 
                                 placeholder="Username"
                                 required><br>
                             <p>Password</p>
                             <input 
                                 name="password-input" 
-                                type="text" 
+                                type="password" 
                                 placeholder="Password"
                                 required>
                             <br>

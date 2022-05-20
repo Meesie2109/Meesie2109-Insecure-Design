@@ -1,26 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&amp;display=swap"
-        rel="stylesheet">
-
-    <title>About page</title>
-
-    <!-- The nav.css includes all the custom styles used in the nav component/tag -->
-    <link rel="stylesheet" href="./stylesheets/nav.css">
-
-    <!-- The vision.css includes all the custom styles used in the vision section -->
-    <link rel="stylesheet" href="./stylesheets/vision.css">
-
-
-    <link rel="stylesheet" href="./stylesheets/style.css">
-</head>
+<!-- Start of the head section -->
+<?php include './assets/includes/head.php'; ?>
+<!-- End of the head section -->
 <body>
 
     <!-- Start of the header section -->
@@ -74,6 +54,10 @@
 
     </main>
     <!-- End of the main content section of the about page -->
+
+    <!-- Start of the footer section -->
+    <?php include './assets/includes/footer.php'; ?>
+    <!-- End of the footer section -->
     
 </body>
 </html>

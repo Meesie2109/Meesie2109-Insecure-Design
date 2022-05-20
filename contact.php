@@ -1,28 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&amp;display=swap"
-        rel="stylesheet">
-
-    <title>Contact page</title>
-
-    <!-- The nav.css includes all the custom styles used in the nav component/tag -->
-    <link rel="stylesheet" href="./stylesheets/nav.css">
-
-    <!-- The contact.css includes all the custom styles used in the contact section -->
-    <link rel="stylesheet" href="./stylesheets/contact.css">
-
-    <!-- The plastic-soup.css includes all the custom styles used in the plastic soup section -->
-    <link rel="stylesheet" href="./stylesheets/plastic-soup.css">
-
-    <link rel="stylesheet" href="./stylesheets/style.css">
-</head>
+<!-- Start of the head section -->
+<?php include './assets/includes/head.php'; ?>
+<!-- End of the head section -->
 <body>
 
     <!-- Start of the header section -->
@@ -42,13 +20,13 @@
                     </p>
                     <form action="#">
                         <p>Name</p>
-                        <input type="text" placeholder="Username"><br>
+                        <input type="text"><br>
                         <p>Email</p>
-                        <input type="text" placeholder="Password"><br>
+                        <input type="text"><br>
                         <p>Country</p>
-                        <input type="text" placeholder="Password"><br>
+                        <input type="text"><br>
                         <p>Message</p>
-                        <textarea type="text" placeholder="Password"></textarea><br>
+                        <textarea type="text"></textarea><br>
                         <button type="submit" class="login-button">Send your message</button>
                     </form>
                 </div>
@@ -70,6 +48,10 @@
 
     </main>
     <!-- End of the main content section for the login page-->
+
+    <!-- Start of the footer section -->
+    <?php include './assets/includes/footer.php'; ?>
+    <!-- End of the footer section -->
     
 </body>
 </html>
