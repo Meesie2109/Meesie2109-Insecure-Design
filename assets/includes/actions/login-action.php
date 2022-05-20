@@ -8,6 +8,15 @@ if(isset($_POST['login-button'])){
 
   require_once '../../helpers/connectdb.php';
 
+  $sql = "SELECT * FROM User WHERE username='$usernameField'";
+  $result = $conn->query($sql);
+
+  if ($result->num_rows > 0) {
+       
+  } else {
+    header("location: ../../../login.php?error=usernameincorrect");
+  }
+
   $sql = "SELECT * FROM User WHERE username='$usernameField' AND password='$passwordField'";
   $result = $conn->query($sql);
 
@@ -27,7 +36,7 @@ if(isset($_POST['login-button'])){
        header("location: ../../../index.php");
 
   } else {
-    header("location: ../../../login.php");
+    header("location: ../../../login.php?error=passwordincorrect");
   }
 
 $conn->close();

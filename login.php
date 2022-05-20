@@ -10,6 +10,9 @@
     <!-- The login.css includes all the custom styles used on the login page -->
     <link rel="stylesheet" href="./stylesheets/login.css">
 
+    <!-- The alerts.css includes all the custom styles used on the alerts displayed -->
+    <link rel="stylesheet" href="./stylesheets/alerts.css">
+
     <link rel="stylesheet" href="./stylesheets/style.css">
 </head>
 <body>
@@ -26,6 +29,9 @@
                    <div>
                         <h2>Login</h2>
                         <form method="post" action="./assets/includes/actions/login-action.php">
+                            <!-- Start of the alert error section-->
+                            <?php include './assets/includes/error-alert.php'; ?>
+                            <!-- End of the alert error section-->
                             <p>Username</p>
                             <input 
                                 type="text" 
