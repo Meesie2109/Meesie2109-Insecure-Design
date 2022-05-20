@@ -14,6 +14,7 @@
                 <li><a href="contact.php">Contact</a></li>
                 <?php 
                 if(isset($_SESSION["username"])){
+                    echo "<li><a href='info.php'>Info</a></li>";
                     echo "<li><a href='./assets/includes/actions/logout-action.php'>Logout</a></li>"; 
                 } else {
                     echo "<li><a href='login.php'>Login</a></li>";
