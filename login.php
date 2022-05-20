@@ -42,7 +42,7 @@
                             <br>
                             <button type="submit" name="login-button" class="login-button">Login</button>
                         </form>
-                        <p>No account yet? <a href="register.html">Register</a></p>
+                        <p>No account yet? <a href="register.php">Register</a></p>
                    </div>
                </div>
            </div>

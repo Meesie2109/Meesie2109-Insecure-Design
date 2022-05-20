@@ -28,20 +28,39 @@
                 <div class="register-section-inputs">
                     <div>
                         <h2>Register Now!</h2>
-                        <form action="#">
+                        <form method="post" action="./assets/includes/actions/register-action.php">
                             <p>Email Adress</p>
-                            <input id="email-input" type="text" placeholder="Email Adress"><br>
+                            <input 
+                                name="email-input" 
+                                type="text" 
+                                placeholder="Email Adress"
+                                required>
+                            <br>
                             <p>Full name</p>
-                            <input type="text" placeholder="Full name"><br>
+                            <input 
+                                name="full-name-input" 
+                                type="text" 
+                                placeholder="Full name"
+                                required>
+                            <br>
                             <p>Username</p>
-                            <input type="text" placeholder="Username"><br>
+                            <input 
+                                name="username-input" 
+                                type="text" 
+                                placeholder="Username"
+                                required><br>
                             <p>Password</p>
-                            <input type="text" placeholder="Password"><br>
+                            <input 
+                                name="password-input" 
+                                type="text" 
+                                placeholder="Password"
+                                required>
+                            <br>
                             <p>Password Confirm</p>
                             <input type="text" placeholder="Password Confirm">
-                            <button type="submit" class="login-button">Register</button>
+                            <button name="register-button" type="submit" class="login-button">Register</button>
                         </form>
-                        <p>Already an account? <a href="login.html">Login</a></p>
+                        <p>Already an account? <a href="login.php">Login</a></p>
                     </div>
                 </div>
             </div>
