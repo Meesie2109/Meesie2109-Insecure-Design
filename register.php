@@ -32,7 +32,7 @@
                             <p>Username</p>
                             <input 
                                 name="username-input" 
-                                type="password" 
+                                type="text" 
                                 placeholder="Username"
                                 required><br>
                             <p>Password</p>
@@ -43,7 +43,7 @@
                                 required>
                             <br>
                             <p>Password Confirm</p>
-                            <input type="text" placeholder="Password Confirm">
+                            <input type="password" placeholder="Password Confirm">
                             <button name="register-button" type="submit" class="login-button">Register</button>
                         </form>
                         <p>Already an account? <a href="login.php">Login</a></p>
